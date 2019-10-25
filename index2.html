@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+ .container{
+        position: relative;
+        border:solid 2px #af0606;
+        height: auto;   
+    }
+    /* 選單 */
+    nav {
+      position: fixed;
+      width: 100%;
+      border: solid 2px #1288ac;
+      display: block;
+      background-color: rgb(6, 135, 179);
+      top: 0;
+      left: 0;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      width: 150px;
+      height: 50px;
+      background-color: rgb(255, 254, 180);
+      margin: 10px;
+    }
+section {
+  position: relative;
+}
+.banner {
+  position: relative;
+  top: 104px;
+}
+.banner img {
+  width: 80%;
+}
+.title {
+  position: absolute;
+  color: #ffffff;
+  top: 50px;
+  left: 300px;
+}
+.content {
+  padding: 150px 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: rgb(201, 201, 201);
+  width: 100%;
+  text-align: center;
+}
+</style>
+
+</head>
+<body>
+         <!--建立最外框-->
+         <div class="container">
+                <!--建立選單-->
+                <nav>
+                    <ul>
+                        <li>選單1</li>
+                        <li>選單2</li>
+                    </ul>
+                </nav>
+                <!--建立橫幅-->
+                <section>
+                    <div class="banner">
+                        <h1 class="title">這是BANNER標題 </h1><img src="images/rabbit.jpg">
+                    </div>
+                </section>
+                <!--網頁其他內容-->
+                <section>
+                        Rabbits are small mammals in the family Leporidae of the order Lagomorpha (along with the hare and the pika). 
+                        Oryctolagus cuniculus includes the European rabbit species and its descendants, 
+                        the world's 305 breeds[1] of domestic rabbit.
+
+                        Rabbits are small mammals in the family Leporidae of the order Lagomorpha (along with the hare and the pika). 
+                        Oryctolagus cuniculus includes the European rabbit species and its descendants, 
+                        the world's 305 breeds[1] of domestic rabbit.
+                </section>
+                <!--網頁的頁腳-->
+                <footer>
+                        This page was last edited on 20 October 2019, at 21:13 (UTC).
+                </footer>
+            </div>
+</body>
+</html>
